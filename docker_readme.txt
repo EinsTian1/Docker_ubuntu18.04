@@ -17,6 +17,11 @@
 (contour-context:1.0:原镜像名 mingruiye/contour-context:更新后的镜像名)
 发布到官网：sudo docker push mingruiye/contour-context:latest
 
+将镜像保存为tar
+sudo docker save -o ubuntu.tar enstian/ubuntu_18.04:v1.0
+读取tar创建镜像
+sudo docker load ubuntu.tar
+
 从零开始创建一个容器：sudo docker run ubuntu
 
 删除容器：sudo docker container rm CONTAINER-ID
