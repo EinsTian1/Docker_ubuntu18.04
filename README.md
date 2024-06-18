@@ -1,7 +1,7 @@
 # Docker_ubuntu18.04
 Docker for ubuntu18.04 to test code
 
-Download ubuntu18.04.tar from xxxxxxx
+Download ubuntu.tar from [Quark]() or [Google]().
 
 Then, create a Docker image using the following command:
 ```
